@@ -1,0 +1,8 @@
+RewriteEngine On
+ErrorDocument 404 /index.php
+
+RewriteRule ^anasayfa index.php [L,NC]
+RewriteRule ^hakkimizda about.php [L,NC]
+RewriteRule ^urunler products.php [L,NC]
+RewriteRule ^magaza store.php [L,NC]
+RewriteRule ^iletisim iletisim.php [L,NC]
